@@ -2,23 +2,29 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9; /* Light background for the profile page */
+  background-color: #f4f4f9; /* Light background */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.container {
-  max-width: 1200px; /* Increased size */
-  margin: 1rem auto;
-  background-color: #ffffff;
-  padding: 2.5rem; /* Slightly increased padding */
+/* Adjust the container styling specifically for the profile form */
+.container { /* Full width up to a max width */
+  width: 900px; /* Control the maximum size */
+  background-color: #fffdd0;
+  padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
 }
 
 h2 {
-  font-size: 2.5rem; /* Increased font size */
-  font-family: 'Roboto', sans-serif; /* Updated font family */
-  font-weight: bold; /* Added bold weight */
-  color: #055742; /* Updated color */
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #055742;
   margin-bottom: 1.5rem;
   text-align: center;
 }
